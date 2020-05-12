@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #000;
+    font-family: 'Open Sans';
+}
+.contenedor{
+    width: 500px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 2px;
+}
+.top{
+    width: 100%;
+    display: flex;
+}
+.top .logo{
+    width: 50%;
+}
+.top .logo .imagen{
+    width: 20%;
+}
+.top .logo .imagen img{
+    width: 100%;
+    float: left;
+    margin: 5px;
+}
+.top .logo .titulo-logo{
+    width: 30%;
+    float: left;
+    padding: 2px;
+    margin: 5px;
+}
+.top .logo .titulo-logo h2{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.top .menu{
+    width: 50%;
+}
+.top .menu .texto{
+    margin: 10px 20px 10px 0px;
+    text-align: right;
+    font-size: 30px;
+}
+.main{
+    width: 100%;
+}
+.main .imagen{
+    width: 100%;
+}
+.main .imagen img{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+}
+.main .icons{
+    width: 100%;    
+    display: flex;
+    font-size: 30px;
+}
+.main .icons .icon-izquierda{
+    width: 50%;
+    padding: 10px;
+    float: left;
+}
+.main .icons .icon-derecha{
+    width: 50%;
+    padding: 10px;
+    float: right;
+    text-align: right;
+}
+.main .icons .icon-derecha .icon-text{
+    margin-right: 5px;
+}
+.main .likes{
+    width: 100%;
+}
+.main .likes p{
+    margin: 10px;
+}
+.main .texto-final{
+    width: 100%;
+}
+.main .texto-final p{
+    padding:10px 5px 30px 10px ;
+}
